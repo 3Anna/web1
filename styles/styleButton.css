@@ -1,0 +1,96 @@
+:root
+{ 
+    --primary-color-black: #0B132A;
+    --primary-color-red: #F53838;
+    --primary-color-white: #FFFFFF;
+    --primary-color-grey: #DDDDDD;
+
+
+}
+.sign{
+    text-decoration: none;
+    padding: 10px; /* Поля вокруг текста */
+    border-radius: 50px;
+    box-sizing: border-box;
+    /*border: 2px solid var(--primary-color-red);*/
+    width: 100px;
+    height: 45px;
+    text-align:center; 
+    font-size: 16px;
+    font-weight: 550;
+    color:var(--primary-color-black);
+}
+.sign:hover {
+    color:var(--primary-color-red);
+    border: 2px solid var(--primary-color-red);
+}
+.getStart{
+    color: var(--primary-color-white);
+    font-weight: 550;
+    text-decoration: none;
+    background: var(--primary-color-red); /* Цвет фона */
+    padding: 18px; /* Поля вокруг текста */
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 250px;
+    height: 60px;
+    margin-top: 5%;
+    text-align:center; 
+}
+
+.getStartText{
+    color: var(--primary-color-white);
+    font-weight: 550;
+}
+
+.select{
+    text-decoration: none;
+    border: 2px solid var(--primary-color-red);
+    background: var(--primary-color-white); /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
+    border-radius: 50px;
+    box-sizing: border-box;
+    width: 60%;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align:center; 
+    color: var(--primary-color-red);
+}
+.select:hover {
+    color: var(--primary-color-white);
+    background: var(--primary-color-red);
+}
+.button_form1{
+    width: 70%;
+    margin: 10px 15%;
+    text-align: center ;
+    text-decoration: none;
+    border: 2px solid hsl(9, 73%, 68%);
+    background: hsl(9, 73%, 68%); /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+}
+
+.button_form1:hover{
+    border: 2px solid var(--primary-color-red);
+    background: var(--primary-color-red); /* Цвет фона */
+}
+.button_form2{
+    width: 70%;
+    margin: 10px 15%;
+    text-align: center ;
+    text-decoration: none;
+    border: 2px solid hsl(9, 6%, 77%);
+    background: hsl(9, 6%, 77%); /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
+    border-radius: 25px;
+    
+
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+}
